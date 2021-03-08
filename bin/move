@@ -10,7 +10,3 @@ puts "Welcome to Tic Tac Toe!"
  index= input_to_index[input]
  move(board, index, position = "X")
  display_board(board)
- 
- 
- 
-
