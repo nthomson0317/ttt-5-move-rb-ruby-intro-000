@@ -8,13 +8,13 @@ def display_board(board)
 
 end
 
-def input_to_index
+def input_to_index(input)
   input. to_i -1
 
 end
 
-def move
-  (board, index, position = "X" )
+def move(board, index, position = "X")
+  board[index] = position
 
 end
 
